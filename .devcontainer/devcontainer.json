@@ -1,0 +1,11 @@
+{
+  "name": "HLS-relay",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [8080],
+  "workspaceFolder": "/workspace",
+  "extensions": [
+    "ms-vscode.js-debug-nightly"
+  ]
+}
